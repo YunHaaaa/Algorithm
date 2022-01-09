@@ -24,8 +24,11 @@ int main(void) {
 			}
 		}
 	}
-	if (L == 1)
-		count++;
+    
+    // 커플석이 한 좌석만 포함되었을 때를 대비(?)
+	//if (L == 1)
+	//	count++;
+        
 	cout << min(count, num) << "\n";
 	return 0;
 }
